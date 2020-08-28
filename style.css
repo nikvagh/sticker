@@ -1,0 +1,852 @@
+ /* @font-face {
+    font-family: 'Futura Bold Oblique';
+    src: url('http://igeekteam.net/sticker/wp-content/themes/twentytwenty-child/Futura Bold Oblique.otf');
+  } */
+
+
+  body {
+    overflow-x: hidden;
+    font-family: 'Futura PT'!important;
+    font-weight: normal;
+  }
+
+  button.group-itm.chooseIconBtn {
+    height: 80px;
+  }
+
+  button.close {
+    width: 20px;
+    height: 20px;
+  }
+
+  button.btn.btn-default {
+    width: 59px;
+    height: 50px;
+  }
+
+  button.tablinks {
+    border: none;
+    height: 80px;
+  }
+  .tab {
+    text-align: left;
+  }
+
+  .span {
+    text-decoration-color: red;
+
+  }
+
+  button.tablinks {
+    padding: 0;
+    border-radius: 15px;
+    width: 200px;
+  }
+
+  button.tablinks p {
+    border-radius: 10px 10px 1px 1px;
+
+
+
+  }
+
+  button.tablinks {
+    border: none;
+  }
+
+  .editorTabs-preview p img {
+    width: 30px;
+  }
+
+  .editorTabs-preview p {
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .tab button.tablinks {
+    margin: 15px;
+  }
+
+  .tab {
+    width: 80%;
+    margin: auto;
+  }
+
+  h2.choose-h2 {
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0;
+    font-style: italic;
+  }
+
+  .bg-image {
+    /* The image used */
+    background-image: url("http://igeekteam.net/sticker/wp-content/uploads/2020/08/home-scaled.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .button4 {
+    border-radius: 12px;
+  }
+
+  .button2 {
+    width: 87%;
+    height: 32px;
+  }
+
+  button.button.button2 {
+    width: 287px;
+  }
+
+  .button1 {
+    width: 140px;
+    height: 32px;
+  }
+
+  .button5 {
+    width: 20px;
+    height: 20px;
+
+  }
+
+  button {
+    width: 60px;
+    height: 25px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    /* font: 80%/1.5 Arial, Helvetica, sans-serif; */
+    color: #111;
+    background-color: #FFF;
+  }
+
+  /* h2 { */
+    /* margin: 0px;
+    padding: 10px; */
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    /* font-size: 200%; */
+    /* font-weight: normal; */
+    /* color: #FFF; */
+    /* background-color: #CCC; */
+    /* border-bottom: #BBB 2px solid; */
+  /* } */
+
+  p#copyright {
+    margin: 20px 10px;
+    font-size: 90%;
+    color: #999;
+  }
+
+  /* Form styles */
+  div.form-container {
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFF;
+  }
+
+  p.legend {
+    margin-bottom: 1em;
+  }
+
+  p.legend em {
+    color: #C00;
+    font-style: normal;
+  }
+
+  div.form-container div.controlset {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0.25em 0;
+  }
+
+  div.form-container div.controlset label,
+  div.form-container div.controlset input,
+  div.form-container div.controlset div {
+    display: inline;
+  }
+
+  div.form-container div.controlset label {
+    width: 200px;
+  }
+
+  div.colorPicker-picker {
+    height: 25px;
+    width: 32px;
+    padding: 0 !important;
+    border: 1px solid #ccc;
+    background: url(../arrow.gif) no-repeat top right;
+    cursor: pointer;
+    line-height: 16px;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  div.colorPicker-palette {
+    width: 110px;
+    position: absolute;
+    border: 1px solid #598FEF;
+    background-color: #EFEFEF;
+    padding: 2px;
+    z-index: 9999;
+  }
+
+  div.colorPicker_hexWrap {
+    width: 100%;
+    float: left;
+    visibility: hidden;
+  }
+
+  div.colorPicker_hexWrap label {
+    font-size: 95%;
+    color: #2F2F2F;
+    margin: 5px 2px;
+    width: 25%;
+    visibility: hidden;
+  }
+
+  div.colorPicker_hexWrap input {
+    margin: 5px 2px;
+    padding: 0;
+    font-size: 95%;
+    border: 1px solid #000;
+    width: 65%;
+    visibility: hidden;
+  }
+
+  div.colorPicker-swatch {
+    height: 12px;
+    width: 12px;
+    border: 0px solid #005;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+    line-height: 12px;
+    border-radius: 50px;
+  }
+
+
+  input#number {
+    width: 110px;
+    margin-left: 53px;
+  }
+
+  input[type='radio'][name='buttonGroup'] {
+    display: none;
+  }
+
+  label#glo {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    background-color: #F0F0F0;
+    width: 10em;
+    text-align: center;
+  }
+
+  /* Clicking a label will select its corresponding hidden radio button
+ We can select that radio buttons sibling label and style it. */
+  input[type='radio'][name='buttonGroup']:checked+label#glo {
+    background-color: black;
+  }
+
+  /*input#color11 {
+  margin-left: -50px;
+ 
+}*/
+
+
+  button.button.button2 {
+    width: 100%;
+  }
+
+  img#ic {
+    position: absolute;
+  }
+
+  button#total1 {
+    width: 100%;
+  }
+
+  p#pt {
+    visibility: hidden;
+  }
+
+  label#fc {
+    margin-left: 15px;
+  }
+
+  p#nkit {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  label#ic {
+    padding-left: 50%;
+    margin-left: 29px;
+  }
+
+  .colorPicker-picker {
+    float: right;
+    margin-left: -50px;
+  }
+
+  input[type='radio'][name='buttonGroup'] {
+    display: none;
+  }
+
+  label#glo {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    background-color: #F0F0F0;
+    width: 10em;
+    text-align: center;
+  }
+
+  /* Clicking a label will select its corresponding hidden radio button
+ We can select that radio buttons sibling label and style it. */
+  input[type='radio'][name='buttonGroup']:checked+label#glo {
+    background-color: black;
+  }
+  p.colorbox {
+    width: 70%;
+  }
+
+  p.colorboxnew {
+    width: 25%;
+  }
+
+  .controlset,
+  .colorbox,
+  .colorboxnew {
+    display: inline-block;
+  }
+
+  /* @font-face { */
+    /* font-family: 'Futura Bold Oblique'; */
+    /*a name to be used later*/
+    /* src: url(Futura Bold Oblique.otf); */
+    /*url('C:\Users\Friend Computer\Desktop\Futura Bold Oblique.otf');*/
+    /*URL to font*/
+  /* } */
+
+  @media (max-width: 768px) {
+
+
+    .tab button {
+      margin: 10px 0 !important;
+      width: 48%;
+    }
+
+    .tab {
+      width: 100%;
+      margin: 10px auto !important;
+    }
+
+    .bg-image {
+
+      height: 200px;
+    }
+
+    form-group {
+      margin-bottom: 15px;
+      width: max-content;
+    }
+
+    .col-xs-6 {
+      width: 100%;
+    }
+
+    .col-xs-6.form-group.top {
+      width: 275px;
+    }
+
+    .col-xs-6.form-group.bottom {
+      width: 275px;
+    }
+
+    .button2 {
+      width: 86%;
+      height: 32px;
+    }
+
+
+    .col-xs-6.form-group.bottom {
+      width: 279px;
+    }
+
+    .col-xs-6.form-group.max-width {
+      width: auto;
+    }
+
+    .col-xs-6.form-group.max-width .button1 {
+      width: 100px;
+
+    }
+
+    .myDiv.right {
+      display: table-cell;
+    }
+
+    .myDiv1.bottom {
+      display: table-footer-group;
+    }
+
+
+  }
+
+  .myDiv.left {
+
+    display: table-row;
+  }
+
+  @media (min-width: 800px) {
+
+    .col-xs-6.form-group.new-file {
+      margin-top: -73px;
+    }
+
+    .col-md-6.right {
+      float: right;
+    }
+  }
+
+
+  /* added by nikul */
+
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border-style: dashed;
+    width: 98%;
+    /* border-left: none;*/
+    /* height: 150px; */
+  }
+
+  .tabcontent .row{
+    padding: 50px;
+  }
+
+  /* .editor .img_a{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  } */
+  /* #Design0 .editor .img_a img{
+    height:100px;
+  } */
+
+  .clearfix{
+    clear: both;
+  }
+
+  .box_12{
+    transform: skewX(-8deg);
+  }
+  .display-flex{
+    display: flex;
+  }
+
+    input[type="text"]{
+        background:#eef2ef;
+        border: 0;
+        box-shadow: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .country_button{
+        background:#151819;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+    }
+    .icon_button{
+        background:#151819;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+    }
+
+  /* ========================= */
+  #Design0 {
+    /* height:100px; */
+  }
+
+  #Design0 .text-block, #Design0 .img-block{
+    height: 93px;
+  }
+
+  #Design0 .img-block{
+    background:#000;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+  }
+  #Design0 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 130px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design0 .text-1{
+    background:#000;
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    border-radius: 10px 0 0 10px;
+    margin-right: -6px;
+    font-size:50px;
+  }
+
+  #Design0 .text-2{
+    background:#000;
+    color:white;
+    font-family: 'Futura PT medium Italic';
+    margin: 0px;
+    padding: 0px 10px 5px 5px;
+    border-radius: 0px 0 0 10px;
+    margin-right: -6px;
+    font-size:20px;
+    float: right;
+    text-transform: uppercase;
+  }
+
+  /* ========================= */
+    #Design1 {
+        /* height:100px; */
+    }
+
+    #Design1 .text-block, #Design1 .img-block{
+        /* height: 93px; */
+    }
+
+    #Design1 .icon{
+        padding:0px 10px;
+    }
+
+    #Design1 .icon img{
+        background: #fff;
+        width: 50px;
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+
+    #Design1 .img-block{
+        background:#000;
+        border-radius: 0px 10px 10px 0px;
+        overflow: hidden;
+    }
+    #Design1 .img-block img{
+        padding: 10px;
+        /* background:#000; */
+        /* border-radius: 0px 10px 10px 10px; */
+        /* height: 80px; */
+        width: 120px;
+        /* transform: skewX(-8deg); */
+    }
+
+    #Design1 .text-1{
+        background:#000;
+        color:white;
+        font-family: 'Futura PT bold Italic';
+        margin: 0px;
+        padding: 0px 10px 0px 5px;
+        border-radius: 10px 0 0 10px;
+        margin-right: -6px;
+        font-size:50px;
+    }
+
+    #Design1 .text-2{
+        background:#000;
+        color:white;
+        font-family: 'Futura PT medium Italic';
+        margin: 0px;
+        padding: 0px 10px 5px 5px;
+        border-radius: 10px 0 0 0px;
+        margin-right: -6px;
+        font-size:20px;
+        float: right;
+        text-transform: uppercase;
+    }
+
+  /* ========================= */
+
+  #Design2 .text-block, #Design2 .img-block{
+    height: 122px;
+  }
+  #Design2 .text-block{
+    background:#000;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #Design2 .img-block{
+    background:#000;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+  }
+  #Design2 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 170px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design2 .text-1{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    border-radius: 10px 0 0 10px;
+    margin-right: -6px;
+    font-size:50px;
+  }
+
+  #Design2 .text-2{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    border-radius: 0px 0 0 10px;
+    margin-right: -6px;
+    font-size:50px;
+    float: right;
+    text-transform: uppercase;
+  }
+
+  /* =========================== */
+
+  #Design3 .text-block, #Design3 .img-block{
+    height: 122px;
+  }
+  #Design3 .text-block{
+    background:#000;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #Design3 .icon img{
+    width: 90px;
+    background: white;
+    padding: 10px;
+    margin: 20px 5px 9px 10px;
+  }
+
+  #Design3 .img-block{
+    background:#000;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+  }
+  #Design3 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 170px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design3 .text-1{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    border-radius: 10px 0 0 10px;
+    margin-right: -6px;
+    font-size:50px;
+  }
+
+  #Design3 .text-2{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    border-radius: 0px 0 0 10px;
+    margin-right: -6px;
+    font-size:50px;
+    float: right;
+    text-transform: uppercase;
+  }
+
+  /* ================================ */
+
+  #Design4 .text-block, #Design4 .img-block{
+    /* height: 122px; */
+  }
+  #Design4 .text-block{
+    background:#000;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  #Design4 .img-block{
+    background:#000;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+  }
+  #Design4 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 125px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design4 .text-1{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+    font-size:50px;
+  }
+
+  #Design4 .text-2{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
+    font-size:50px;
+    float: right;
+    text-transform: capitalize;
+  }
+
+  /* ================================ */
+
+  #Design5 .text-block, #Design5 .img-block{
+    /* height: 122px; */
+  }
+  #Design5 .text-block{
+    background:#000;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  #Design5 .icon img{
+    width: 92px;
+    padding: 10px;
+    background: white;
+  }
+
+  #Design5 .img-block{
+    background:#000;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+  }
+  #Design5 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 125px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design5 .text-1{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+    font-size:50px;
+  }
+
+  #Design5 .text-2{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
+    font-size:50px;
+    float: right;
+    text-transform: capitalize;
+  }
+
+  /* ================================ */
+
+  #Design6 .text-block, #Design6 .img-block{
+    /* height: 122px; */
+  }
+  #Design6 .text-block{
+    background:#000;
+  }
+
+  #Design6 .img-block{
+    background:#000;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+  }
+
+  #Design6 .img-block-1{
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  #Design6 .img-block-2{
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  #Design6 .img-block img{
+      padding: 10px;
+      /* background:#000; */
+      /* border-radius: 0px 10px 10px 10px; */
+      /* height: 80px; */
+      width: 125px;
+      /* transform: skewX(-8deg); */
+  }
+
+  #Design6 .text-1{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+    font-size:50px;
+  }
+
+  #Design6 .text-2{
+    /* background:#000; */
+    color:white;
+    font-family: 'Futura PT bold Italic';
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
+    font-size:50px;
+    float: right;
+    text-transform: capitalize;
+  }
+
+  /* ================================ */
+
+  
