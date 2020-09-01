@@ -87,13 +87,16 @@
     background-image: url("http://igeekteam.net/sticker/wp-content/uploads/2020/08/home-scaled.jpg");
 
     /* Full height */
-    height: 100%;
+    /* height: 100%; */
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+    /* background-size: cover; */
+    /* height: 600px; */
+
+    background-size: auto;
+    background-position: 100%;
   }
 
   .button4 {
@@ -460,6 +463,7 @@
 
   .box_12{
     transform: skewX(-8deg);
+    overflow: hidden;
   }
   .display-flex{
     display: flex;
@@ -517,7 +521,55 @@
     .btn-operation{
       padding: 0px;
     }
-  
+
+    .total-box{
+      color:red;
+    }
+
+    .total-box h2{
+      text-align: right;
+      margin:10px 0px;
+    }
+
+    .btn-checkout{
+      font-weight: 900;
+      font-family: 'Futura PT bold Italic';
+      font-size:30px;
+    }
+    .total-box h2 span{
+      font-weight: 900;
+      font-family: 'Futura PT bold Italic';
+    }
+
+    .left-box-all.row{
+      padding: 0px;
+      margin: 0px;
+      box-shadow: 4px 0px 10px 2px #999;
+      border-radius: 8px;
+    }
+    
+    .bottom-box-left{
+      padding: 0;
+    }
+
+    .finish_radio label{
+      padding:5px;
+      background:#eef2ef;
+      border-radius: 5px;
+      margin:10px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    .finish_radio label input[type="radio"]{
+      visibility: hidden;
+      width: 100%;
+
+      width: 100%;
+      position: absolute;
+      left: 0;
+    }
 
   /* ========================= */
   #Design0 {

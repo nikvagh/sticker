@@ -27,6 +27,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.16/svg.min.js" integrity="sha512-p3Tp2zn+wApBreZCgRkmMwnfpN8MUPXzzOihXx7iGYXqE7t6m9drY8HeyMeeFuDWiTFKrGUrq3jpbT0vX6zY/Q==" crossorigin="anonymous"></script> -->
+
   <script>
     window.dataLayer = window.dataLayer || [];
   </script>
@@ -61,10 +63,8 @@
       var noTickets = document.getElementById("number").value;
       var total = parseFloat(price) * noTickets
       if (!isNaN(total))
-        document.getElementById("total").innerHTML = total
+        document.getElementById("total").innerHTML = total.toFixed(2); 
     }
-
-
 
   </script>
 
@@ -149,7 +149,352 @@
   </div>
   <div class="col-md-12">
 
-    <div class="col-md-6 right">
+    <div class="col-md-6">
+      <h2 class="choose-h2">CUSTOMIZE</h2>
+      <p class="text-center">kit of 6 large and 6 small stickers</p>
+
+
+      <div class="left-box-all row">
+
+        <div id="Design0" class="tabcontent editor">
+
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex">
+                <div class="text-block pull-left">
+                  <h2 class="text-1 text-uppercase">Il tuo nome</h2>
+                  <span class="text-2">Il tuo nome</span>
+                </div>
+                <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div id="Design1" class="tabcontent">
+
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex">
+              <!-- <div class="img_a"> -->
+                <div class="text-block pull-left">
+                  <span class="text-2">Il tuo nome</span>
+                  <span class="clearfix"></span>
+                  <h2 class="text-1 text-uppercase"><span class="icon">
+                    <!-- <i class="fa fa-pencil"></i> -->
+                    <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
+                  </span>Il tuo nome</h2>
+                </div>
+                <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Design2" class="tabcontent">
+
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex">
+              <!-- <div class="img_a"> -->
+                <div class="text-block pull-left">
+                  <h2 class="text-1 text-uppercase">Il tuo nome</h2>
+                  <h2 class="text-2 text-uppercase">Il tuo nome</h2>
+                </div>
+                <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Design3" class="tabcontent">
+
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex">
+              <!-- <div class="img_a"> -->
+                <div class="text-block pull-left">
+                  <!-- <div class="pull-left">
+                    <span class="icon" style="width:100px;">
+                      <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
+                    </span>
+                  </div> -->
+                  <div class="pull-left">
+                    <div class="pull-left">
+                      <span class="icon">
+                        <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
+                      </span>
+                    </div>
+                    <div class="pull-left">
+                      <h2 class="text-1 text-uppercase">Il tuo nome</h2>
+                      <h2 class="text-2 text-uppercase">Il tuo nome</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Design4" class="tabcontent">
+
+            <div class="row">
+              <div class="col-md-12 box_12 display-flex">
+                <!-- <div class="img_a"> -->
+                  <div class="img-block pull-left">
+                    <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                  </div>
+                  <div class="text-block pull-left">
+                    <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
+                    <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
+                  </div>
+                  
+                  <div class="clearfix"></div>
+                <!-- </div> -->
+              </div>
+            </div>
+
+        </div>
+
+        <div id="Design5" class="tabcontent">
+
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex1">
+              <!-- <div class="img_a"> -->
+                <!-- <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div> -->
+                <span class="icon pull-left">
+                  <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
+                </span>
+                <div class="text-block pull-left">
+                  <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
+                  <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
+                </div>
+                
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+          
+        </div>
+
+        <div id="Design6" class="tabcontent">
+          
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex">
+              <!-- <div class="img_a"> -->
+                <div class="img-block img-block-1 pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="text-block pull-left">
+                  <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
+                  <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
+                </div>
+                <div class="img-block img-block-2 pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Design7" class="tabcontent">
+          <div class="row">
+            <div class="col-md-12 box_12 display-flex1">
+              <!-- <div class="img_a"> -->
+                <span class="icon pull-left">
+                  <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
+                </span>
+                <div class="text-block pull-left">
+                  <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
+                  <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
+                </div>
+                <div class="img-block pull-left">
+                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+
+        <br class="clearfix"/>
+        <br class="clearfix"/>
+
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h4 class="text-center"><b>SMALL SIZE</b> Height 12mm x Length XXXXmm (max 100mm)</h4>
+            <h4 class="text-center"><b>MEDIUM SIZE</b> Height 18mm x Length XXXXmm (max 100mm)</h4>
+          </div>
+        </div>
+
+        <form action="/action_page.php">
+
+          <div class="col-xs-6 form-group top">
+            <input type="text" id="name" class="form-control" placeholder="First Name"  maxlength="20" />
+          </div>
+          <div class="col-xs-6 form-group bottom">
+            <input type="text" id="sname" class="form-control" placeholder="Last Name" maxlength="20" />
+          </div>
+
+          <div class="col-xs-6 form-group top">
+            <button type="button" class="button button2 country_button" data-toggle="modal" data-target="#myModal1">Select Country</button>
+          </div>
+
+          <div class="col-xs-6 form-group bottom">
+            <!-- <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/pencil1.png" id="ic"> -->
+            <!-- <i class="fa fa-pencil"></i> -->
+            <button type="button" class="button button2 icon_button" data-toggle="modal" data-target="#myModal" id="icon">Select Icon</button>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6 form-group max-width">
+
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h1 id="h1" class="text-center">Finish</h1>
+                </div>
+                <div class="col-md-12 finish_radio">
+                  <span class="col-md-5 col-md-offset-1 col-sm-6">
+                    <label><input type="radio" name="finish" value="glossy" class="finish_radio_btn">Glossy</label>
+                  </span>
+                  <span class="col-md-5 col-sm-6">
+                    <label><input type="radio" name="finish" value="matte" class="finish_radio_btn">Matte</label>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-xs-6 form-group ">
+              <div class="form-container">
+
+                <fieldset>
+                  <div class="mydiv">
+                    <div class="controlset">
+                        <p class="colorbox"><label>Background</label>
+                          <!-- <input id="color1" type="text" name="color1" value="#333399" onclick="changeColor()" /> -->
+                          <input id="color1" type="text" name="color1" value="#000000" />
+                        </p>
+                        <!-- <p class="colorboxnew"><input type="button" id="color11" name="color1" value="apply" onclick="changeColor()"> </p> -->
+                    </div>
+                  </div>
+
+                  <div class="mydiv11">
+                    <div class="controlset">
+                      <p class="colorbox"><label>Font color</label>
+                        <!-- <input id="color2" type="text" name="color2" value="#FF0000" onclick="changeFColor()" /> -->
+                        <input id="color2" type="text" name="color2" value="#FFFFFF" />
+                      </p>
+                      <!-- <p class="colorboxnew"><input type="button" id="color22" name="color22" value="apply" onclick="changeFColor()"></p> -->
+                      <script>
+                        // document.getElementById("color2").onclick = function () {
+                        //   document.getElementById("demo").style.color = 'color';
+                        // }
+                      </script>
+                    </div>
+                  </div>
+
+                  <div class="mydiv22">
+                    <div class="controlset">
+                      <p class="colorbox"><label>Icon color</label> 
+                        <!-- <input id="color3" type="text" name="color3" value="#993300" onclick="changeIColor()" /> -->
+                        <input id="color3" type="text" name="color3" value="#993300" />
+                      </p>
+                      <p class="colorboxnew">
+                        <!-- <input type="button" id="color33" name="color33" value="apply" onclick="changeIColor()" /> -->
+                      </p>
+                    </div>
+                  </div>
+                </fieldset>
+
+              </div>
+            </div>
+          </div>
+
+          <br class="clearfix">
+          <br class="clearfix">
+
+          <div class="row">
+            <div class="col-xs-6 form-group new-file">
+
+              <p id="nkit">
+                N Kit :<input id="number" type="number" value="1" oninput="calc()" />
+                <button class="btn btn-success btn-operation btn_plus">+</button>
+                <button class="btn btn-danger btn-operation btn_minus">-</button>
+              </p>
+              <p id="pt">Price Per ticket : €<span id="ticket_price">16.90</span></p>
+
+            </div>
+          </div>
+
+          <!-- <div class="row"> -->
+            <div class="col-xs-12 form-group">
+
+              <div class="col-xs-2">
+              </div>
+              <div class="col-xs-2">
+                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/paypalexpress.svg" width="100px" id="pay">
+              </div>
+              <div class="col-xs-2">
+                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/mastercard.svg" width="100px" id="master">
+              </div>
+              <div class="col-xs-2">
+                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/visa.svg" width="100px" id="visa">
+              </div>
+              <div class="col-xs-2">
+                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/22.png" width="100px" id="satis">
+              </div>
+              <div class="col-xs-2">
+              </div>
+
+            </div>
+
+            <div class="col-md-12 bottom-box-left">
+              <p id="sub" class="text-center" style="background-color: red; border-color: black; color: white;margin:0px;font-weight: 100; font-size: 20px; text-transform: uppercase;">Free Shipping</p>
+              <div style="color: white;background-color: black;border-radius: 0 0 8px 8px;" class="container-fluid">
+                <div class="col-sm-8" style="">
+                  <a class="btn btn-block btn-checkout text-left">
+                    Go To Checkout
+                  </a>
+                </div>
+                <div class="col-sm-4 total-box">
+                  <h2>&euro; <span id="total">16.90</span></h2>
+                </div>
+                  
+                <!-- <button type="submit" id="total1" value="Go To Checkout" class="btn btn-block">
+                  <span class="text-left">Go To Checkout</span> <span id="total">&euro; 16.90</span>
+                </button> -->
+              </div>
+            </div>
+          <!-- </div> -->
+
+        </form>
+
+      </div>
+      
+      <br/>
+      <br/>
+
+    </div>
+
+    <div class="col-md-6">
 
       <div class="row">
         <div class="col-md-12">
@@ -438,326 +783,13 @@
     </div>
 
 
-    <div class="col-md-6 left">
-      <h2 class="choose-h2">CUSTOMIZE</h2>
-      <p class="text-center">kit of 6 large and 6 small stickers</p>
-      <div id="Design0" class="tabcontent editor">
-
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex">
-              <div class="text-block pull-left">
-                <h2 class="text-1 text-uppercase">Il tuo nome</h2>
-                <span class="text-2">Il tuo nome</span>
-              </div>
-              <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="clearfix"></div>
-          </div>
-        </div>
-
-      </div>
-      
-      <div id="Design1" class="tabcontent">
-
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex">
-            <!-- <div class="img_a"> -->
-              <div class="text-block pull-left">
-                <span class="text-2">Il tuo nome</span>
-                <span class="clearfix"></span>
-                <h2 class="text-1 text-uppercase"><span class="icon">
-                  <!-- <i class="fa fa-pencil"></i> -->
-                  <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
-                </span>Il tuo nome</h2>
-              </div>
-              <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-
-      </div>
-
-      <div id="Design2" class="tabcontent">
-
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex">
-            <!-- <div class="img_a"> -->
-              <div class="text-block pull-left">
-                <h2 class="text-1 text-uppercase">Il tuo nome</h2>
-                <h2 class="text-2 text-uppercase">Il tuo nome</h2>
-              </div>
-              <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-
-      </div>
-
-      <div id="Design3" class="tabcontent">
-
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex">
-            <!-- <div class="img_a"> -->
-              <div class="text-block pull-left">
-                <!-- <div class="pull-left">
-                  <span class="icon" style="width:100px;">
-                    <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
-                  </span>
-                </div> -->
-                <div class="pull-left">
-                  <div class="pull-left">
-                    <span class="icon">
-                      <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
-                    </span>
-                  </div>
-                  <div class="pull-left">
-                    <h2 class="text-1 text-uppercase">Il tuo nome</h2>
-                    <h2 class="text-2 text-uppercase">Il tuo nome</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-
-      </div>
-
-      <div id="Design4" class="tabcontent">
-
-          <div class="row">
-            <div class="col-md-12 box_12 display-flex">
-              <!-- <div class="img_a"> -->
-                <div class="img-block pull-left">
-                  <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-                </div>
-                <div class="text-block pull-left">
-                  <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
-                  <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
-                </div>
-                
-                <div class="clearfix"></div>
-              <!-- </div> -->
-            </div>
-          </div>
-
-      </div>
-
-      <div id="Design5" class="tabcontent">
-
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex1">
-            <!-- <div class="img_a"> -->
-              <!-- <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div> -->
-              <span class="icon pull-left">
-                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
-              </span>
-              <div class="text-block pull-left">
-                <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
-                <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
-              </div>
-              
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-        
-      </div>
-
-      <div id="Design6" class="tabcontent">
-        
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex">
-            <!-- <div class="img_a"> -->
-              <div class="img-block img-block-1 pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="text-block pull-left">
-                <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
-                <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
-              </div>
-              <div class="img-block img-block-2 pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-
-      </div>
-
-      <div id="Design7" class="tabcontent">
-        <div class="row">
-          <div class="col-md-12 box_12 display-flex1">
-            <!-- <div class="img_a"> -->
-              <span class="icon pull-left">
-                <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" alt="">
-              </span>
-              <div class="text-block pull-left">
-                <h2 class="text-uppercase"><span class="text-1">Il tuo nome</span> <span class="text-2">Il tuo nome</span></h2>
-                <!-- <h2 class="text-2 text-uppercase">MICHELE</h2> -->
-              </div>
-              <div class="img-block pull-left">
-                <img src="https://d3fu7mr2g5m5ku.cloudfront.net/prod/uploads/uploads/2018/02/in.png" alt="">
-              </div>
-              <div class="clearfix"></div>
-            <!-- </div> -->
-          </div>
-        </div>
-      </div>
-
-      <br class="clearfix"/>
-
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h4 class="text-center"><b>SMALL SIZE</b> Height 12mm x Length XXXXmm (max 100mm)</h4>
-          <h4 class="text-center"><b>MEDIUM SIZE</b> Height 18mm x Length XXXXmm (max 100mm)</h4>
-        </div>
-      </div>
-
-
-      <form action="/action_page.php">
-
-        <div class="col-xs-6 form-group top">
-          <input type="text" id="name" class="form-control" placeholder="First Name"  maxlength="" />
-        </div>
-        <div class="col-xs-6 form-group bottom">
-          <input type="text" id="sname" class="form-control" placeholder="Last Name" maxlength="" />
-        </div>
-
-        <div class="col-xs-6 form-group top">
-          <button type="button" class="button button2 country_button" data-toggle="modal" data-target="#myModal1">Select Country</button>
-        </div>
-
-        <div class="col-xs-6 form-group bottom">
-          <!-- <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/pencil1.png" id="ic"> -->
-          <!-- <i class="fa fa-pencil"></i> -->
-          <button type="button" class="button button2 icon_button" data-toggle="modal" data-target="#myModal" id="icon">Select Icon</button>
-        </div>
-
-        <div class="col-xs-6 form-group max-width">
-
-          <div class="row">
-            <div class="col-md-9 text-center">
-              <h1 id="h1" class="text-center">Finish</h1>
-            </div>
-            <div class="col-md-9">
-              <input type="radio" name="buttonGroup" value="one" id="one"><label for="one" id="glo">Glossy</label>
-              <input type="radio" name="buttonGroup" value="two" id="two"><label for="two" id="glo">Matte</label>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-xs-6 form-group ">
-          <div class="form-container">
-
-            <fieldset>
-              <div class="mydiv">
-                <div class="controlset">
-                    <p class="colorbox"><label>Background</label>
-                      <!-- <input id="color1" type="text" name="color1" value="#333399" onclick="changeColor()" /> -->
-                      <input id="color1" type="text" name="color1" value="#000000" />
-                    </p>
-                    <!-- <p class="colorboxnew"><input type="button" id="color11" name="color1" value="apply" onclick="changeColor()"> </p> -->
-                </div>
-              </div>
-
-              <div class="mydiv11">
-                <div class="controlset">
-                  <p class="colorbox"><label>Font color</label>
-                    <!-- <input id="color2" type="text" name="color2" value="#FF0000" onclick="changeFColor()" /> -->
-                    <input id="color2" type="text" name="color2" value="#FFFFFF" />
-                  </p>
-                  <!-- <p class="colorboxnew"><input type="button" id="color22" name="color22" value="apply" onclick="changeFColor()"></p> -->
-                  <script>
-                    // document.getElementById("color2").onclick = function () {
-                    //   document.getElementById("demo").style.color = 'color';
-                    // }
-                  </script>
-                </div>
-              </div>
-
-              <div class="mydiv22">
-                <div class="controlset">
-                  <p class="colorbox"><label>Icon color</label> 
-                    <!-- <input id="color3" type="text" name="color3" value="#993300" onclick="changeIColor()" /> -->
-                    <input id="color3" type="text" name="color3" value="#993300" />
-                  </p>
-                  <p class="colorboxnew">
-                    <!-- <input type="button" id="color33" name="color33" value="apply" onclick="changeIColor()" /> -->
-                  </p>
-                </div>
-              </div>
-            </fieldset>
-
-          </div>
-        </div>
-
-
-
-        <div class="col-xs-6 form-group new-file">
-
-          <p id="nkit">
-            N Kit :<input id="number" type="number" value="1" oninput="calc()" />
-            <button class="btn btn-success btn-operation btn_plus">+</button>
-            <button class="btn btn-danger btn-operation btn_minus">-</button>
-          </p>
-          <p id="pt">Price Per ticket : €<span id="ticket_price">16.90</span></p>
-
-        </div>
-
-
-        <div class="col-xs-12 form-group">
-
-          <div class="col-xs-2">
-          </div>
-          <div class="col-xs-2">
-            <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/paypalexpress.svg" width="100px" id="pay">
-          </div>
-          <div class="col-xs-2">
-            <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/mastercard.svg" width="100px" id="master">
-          </div>
-          <div class="col-xs-2">
-            <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/visa.svg" width="100px" id="visa">
-          </div>
-          <div class="col-xs-2">
-            <img src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/22.png" width="100px" id="satis">
-          </div>
-          <div class="col-xs-2">
-          </div>
-
-        </div>
-
-        <div class="col-md-12 form-group">
-          <p id="sub" style="background-color: red; border-color: black; color: white;" align="center">Free Shipping</p>
-          <button type="submit" id="total1" style="background-color: black; border-color: black; color: white;" align="center" value=" Go To Checkout "><b>Go To Checkout <span id="total">&euro; 16.90</span></b></button>
-        </div>
-
-      </form>
-
-    </div>
+    
   </div>
   </div>
 
 </body>
 
 <footer>
-
-
   <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -2806,79 +2838,74 @@
     </div>
   </div>
 
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
 
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" id="modaClose">&times;</button>
-            <h4 class="modal-title">Select Icon</h4>
-          </div>
-
-          <div class="modal-body">
-            <h1 class="group-header">icon</h1>
-            
-            <div class="tab">
-
-              <!-- <button data-key=""> -->
-                <!-- <svg width="200" height="200" xmlns="./icon/icon (1)">       
-                  <image src="icon/icon (1).svg" height="200" width="200"/>
-                </svg> -->
-
-                <image src="icon/icon (1).svg" height="200" width="200"/>
-
-              <!-- </button> -->
-
-              <button name="icon" data-key="Layer_1" class="group-itm chooseIconBtn" value="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" data-title="Layer_1" onclick="updateIcon('Layer_1');return false;">
-                <img id="Layer_1" data-name="Layer 1" src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" srcset=" http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790 234w, http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" sizes="38px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71.47 64.39">
-                <defs>
-                  <style>
-                    .cls-1 {
-                      fill: none;
-                    }
-                    .cls-2 {
-                      clip-path: url(#clip-path);
-                    }
-                  </style>
-                  <clipPath id="clip-path" transform="translate(-13.75 -0.92)">
-                    <rect class="cls-1" width="100" height="66" />
-                  </clipPath>
-                </defs>
-                <title>First_icon</title>
-                <g class="cls-2">
-                  <path
-                    d="M49.47,0.92a35.89,35.89,0,0,0-31.39,53V44.43a7.65,7.65,0,0,1,1.71-4.76q-0.14-1.42-.14-2.85A29.82,29.82,0,1,1,79.14,40a7.58,7.58,0,0,1,1.48,4.46v10A35.89,35.89,0,0,0,49.47.92"
-                    transform="translate(-13.75 -0.92)" />
-                  <path
-                    d="M20.29,42.89a5.26,5.26,0,0,0-.23,1.53v13.4c0,4.14,4.93,7.49,11,7.49h4.63V36.94H31.06c-5.3,0-9.73,2.56-10.77,6"
-                    transform="translate(-13.75 -0.92)" />
-                  <path
-                    d="M78.65,57.83V44.43a5.2,5.2,0,0,0-.09-1c-0.69-3.69-5.31-6.54-10.91-6.54H63V65.32h4.63c6.08,0,11-3.35,11-7.49"
-                    transform="translate(-13.75 -0.92)" />
-                </g>
-              </svg>
-
-                <button name="icon" data-key="i150" class="group-itm chooseIconBtn" value="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" data-title="Icon150" onclick="updateIcon('i150');return false;">
-                  <img id="i150" src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" srcset="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484 234w, http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" sizes="38px">
-                </button>
-
-            </div>
-          </div>
-
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id="modaClose">&times;</button>
+          <h4 class="modal-title">Select Icon</h4>
         </div>
+
+        <div class="modal-body">
+          <h1 class="group-header">icon</h1>
+          
+          <div class="tab">
+
+            <!-- <button data-key=""> -->
+              <!-- <svg width="200" height="200" xmlns="./icon/icon (1)">       
+                <image src="icon/icon (1).svg" height="200" width="200"/>
+              </svg> -->
+
+              <image src="icon/icon (1).svg" height="200" width="200"/>
+
+            <!-- </button> -->
+
+            <button name="icon" data-key="Layer_1" class="group-itm chooseIconBtn" value="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" data-title="Layer_1" onclick="updateIcon('Layer_1');return false;">
+              <img id="Layer_1" data-name="Layer 1" src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" srcset=" http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790 234w, http://igeekteam.net/sticker/wp-content/uploads/2020/08/First_icon.svg?_t=1598416790" sizes="38px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71.47 64.39">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                  }
+                  .cls-2 {
+                    clip-path: url(#clip-path);
+                  }
+                </style>
+                <clipPath id="clip-path" transform="translate(-13.75 -0.92)">
+                  <rect class="cls-1" width="100" height="66" />
+                </clipPath>
+              </defs>
+              <title>First_icon</title>
+              <g class="cls-2">
+                <path
+                  d="M49.47,0.92a35.89,35.89,0,0,0-31.39,53V44.43a7.65,7.65,0,0,1,1.71-4.76q-0.14-1.42-.14-2.85A29.82,29.82,0,1,1,79.14,40a7.58,7.58,0,0,1,1.48,4.46v10A35.89,35.89,0,0,0,49.47.92"
+                  transform="translate(-13.75 -0.92)" />
+                <path
+                  d="M20.29,42.89a5.26,5.26,0,0,0-.23,1.53v13.4c0,4.14,4.93,7.49,11,7.49h4.63V36.94H31.06c-5.3,0-9.73,2.56-10.77,6"
+                  transform="translate(-13.75 -0.92)" />
+                <path
+                  d="M78.65,57.83V44.43a5.2,5.2,0,0,0-.09-1c-0.69-3.69-5.31-6.54-10.91-6.54H63V65.32h4.63c6.08,0,11-3.35,11-7.49"
+                  transform="translate(-13.75 -0.92)" />
+              </g>
+            </svg>
+
+              <button name="icon" data-key="i150" class="group-itm chooseIconBtn" value="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" data-title="Icon150" onclick="updateIcon('i150');return false;">
+                <img id="i150" src="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" srcset="http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484 234w, http://igeekteam.net/sticker/wp-content/uploads/2020/08/icon%20(150).svg?_t=1598082484" sizes="38px">
+              </button>
+
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
       </div>
     </div>
-
-
+  </div>
 
   <script type="text/javascript">
-
-
     $(".Design0").trigger('click');
 
     function openDesign(evt, designName) {
@@ -3245,9 +3272,13 @@
       calc();
     })
 
+    $(".finish_radio_btn").click(function(){
+      radio_val = $(this).val();
+      // alert(radio_val);
+    });
+
   </script>
   
-
 </footer>
 
 </html>
